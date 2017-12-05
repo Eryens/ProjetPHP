@@ -1,2 +1,9 @@
 <?php
-    Controller::loadSharedTemplate('head'); ?>
+    Controller::loadSharedTemplate('head'); 
+?>
+    <body>
+        <main>
+            <?php Controller::loadSharedTemplate('header'); ?>
+            
+        </main>
+    </body>
