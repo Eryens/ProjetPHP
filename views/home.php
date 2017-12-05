@@ -1,0 +1,2 @@
+<?php
+    Controller::loadSharedTemplate('head'); ?>
