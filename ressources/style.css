@@ -29,3 +29,7 @@ li a nav {
 li a:hover nav{
     background-color: #111;
 }
+
+.personPicture {
+    height: 200px;
+}
