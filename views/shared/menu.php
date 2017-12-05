@@ -1,6 +1,6 @@
-<ul>
-  <li><a class="active nav" href="#home">Home</a></li>
-  <li><a class="nav" href="#news">News</a></li>
-  <li><a class="nav" href="#contact">Contact</a></li>
-  <li><a class="nav" href="#about">About</a></li>
-</ul>
+<nav id="menu">
+    <ul>
+        <li><a class="active nav" href="<?= _BASE_URL_ ?>">Home</a></li>
+        <li><a class="nav" href="<?= _BASE_URL_ ?>faq">FAQ</a></li>
+    </ul>
+</nav>
