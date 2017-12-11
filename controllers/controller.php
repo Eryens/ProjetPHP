@@ -26,7 +26,7 @@ class Controller {
     public static function loadAdminTemplate($templateName, $args = null) {
         
         if (!empty($args)) {
-            $data = $args;
+            $data = $args ;
         }
 
         include dirname(dirname(__FILE__)) . '/views/admin/' . $templateName . '.php';
