@@ -1,16 +1,9 @@
-<?php
-    Controller::loadSharedTemplate('head'); 
-?>
-<body>
-    <main>
-        <?php Controller::loadSharedTemplate('header'); ?>
-        
-        <article>
-            <div class="row">
-                
-            </div>
-        </article>
+<div class="row">
+    <h2>Biographie</h2>
+    <p><?= $data['biography']['biography'] ?></p>
+</div>
 
-        <?php Controller::loadSharedTemplate('footer', $data); ?>
-    </main>
-</body>
+<figure class="row">
+    <img src=<?= $data['picturedirector']['path'] ?> alt="realisateur" >
+    <figcaption><?= $data['picturedirector']['legend'] ?></figcaption>
+</figure>
