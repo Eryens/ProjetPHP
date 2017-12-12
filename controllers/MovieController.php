@@ -11,6 +11,6 @@ class MovieController extends Controller {
         //$data['realisateur'] = $movie->getDirector();
         //$data['imagesOfActorsInFilm'] = $movie->getActorImages();
         
-        return parent::loadTemplate('movieInformation', $data);
+        return parent::loadLayoutTemplate('movieInformation', $data);
     }
 }

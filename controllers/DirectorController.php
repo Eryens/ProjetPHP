@@ -7,6 +7,6 @@ class DirectorController extends Controller
     {
         $director = new Director($id);
         $data['personne'] = $director->getBaseInformation();
-        return Controller::loadTemplate('person', $data);
+        return Controller::loadLayoutTemplate('person', $data);
     }
 }

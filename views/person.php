@@ -4,6 +4,6 @@
 </div>
 
 <figure class="row">
-    <img src=<?= $data['picturedirector']['path'] ?> alt="realisateur" >
+    <img src=<?= $data['picturedirector']['path'] ?> alt="person" >
     <figcaption><?= $data['picturedirector']['legend'] ?></figcaption>
 </figure>
