@@ -9,6 +9,6 @@ class HomeController extends Controller {
         //$data['moviesList'] = Movie::getAllMovies();
         //$data['actorsList'] = Actor::getAllActors();
         //$data['directorsList'] = Director::getAllDirectors();
-        return parent::loadSharedTemplate('layout', $data);
+        return parent::loadLayoutTemplate('home', $data);
     }
 }
