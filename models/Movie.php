@@ -40,7 +40,7 @@ class Movie {
     {
         $db = DB::getInstance();
         // redo it properly with DB
-        $request = $db->prepare("SELECT * FROM PICTURE JOIN MOVIE ON MOVIE_HAS_PICTURE ON PICTURE.ID = MOVIE_HAS_PHOTO.ID")
+        $request = $db->prepare("SELECT * FROM PICTURE JOIN MOVIE ON MOVIE_HAS_PICTURE ON PICTURE.ID = MOVIE_HAS_PHOTO.ID");
     }
 
 }
