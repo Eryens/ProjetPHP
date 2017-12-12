@@ -9,6 +9,6 @@
             <?php Controller::loadTemplate($templateName); ?>
         </article>
 
-        <?php Controller::loadSharedTemplate('footer', $data); ?>
+        <?php Controller::loadSharedTemplate('footer'); ?>
     </main>
 </body>
